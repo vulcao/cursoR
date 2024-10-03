@@ -7,9 +7,9 @@ df2 <- data.frame(Produto = c(1,2,3,4), Nome = c("A","B","C","D"))
 head(df2)
 
 # instalar pacote dplyr
-# install.packages("dplyr")
-# library(dplyr)
-# ?left_join
+install.packages("dplyr")
+library(dplyr)
+?left_join
 
 
 df3 <- left_join(df1,df2,"Produto")
