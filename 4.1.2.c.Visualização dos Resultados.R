@@ -3,6 +3,7 @@
 # 1 - Qual é o valor gasto por órgão em passagens?
 
 #Criando um dataframe com os 15 órgãos que gastam mais
+install.packages("dplyr")
 library(dplyr)
 p1 <- viagens %>%
   group_by(Nome.do.órgão.superior) %>%
